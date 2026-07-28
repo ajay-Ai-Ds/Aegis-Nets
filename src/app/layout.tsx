@@ -1,0 +1,192 @@
+import type { Metadata } from "next";
+import { Geist, Geist_Mono, Inter } from "next/font/google";
+import Script from "next/script";
+import Navbar from "@/components/navigation/Navbar";
+import Footer from "@/components/navigation/Footer";
+import FloatingCTA from "@/components/shared/FloatingCTA";
+import "./globals.css";
+
+const inter = Inter({
+  variable: "--font-inter",
+  subsets: ["latin"],
+  display: "swap",
+});
+
+const geistSans = Geist({
+  variable: "--font-geist-sans",
+  subsets: ["latin"],
+  display: "swap",
+});
+
+const geistMono = Geist_Mono({
+  variable: "--font-geist-mono",
+  subsets: ["latin"],
+  display: "swap",
+});
+
+export const metadata: Metadata = {
+  title: "Aegis Nets | Safety Nets & Invisible Grills Chennai",
+  description: "Aegis Nets offers professional balcony safety nets, child safety netting, pigeon protection nets, invisible grills, and ceiling cloth hangers in Chennai, Tamil Nadu. Premium quality and fast installation.",
+  keywords: [
+    "Safety Nets Chennai",
+    "Invisible Grills Chennai",
+    "Balcony Safety Nets Chennai",
+    "Pigeon Safety Nets Chennai",
+    "Window Invisible Grills Chennai",
+    "Ceiling Cloth Hangers Chennai",
+    "Aegis Nets Chennai",
+  ],
+  metadataBase: new URL("https://www.aegisnets.in"),
+  verification: {
+    google: "fYQkLBeMnZJOHutLePpTNA_y7Z98S0mCOZuzBiJdrpE",
+  },
+  alternates: {
+    canonical: "/",
+  },
+  openGraph: {
+    title: "Aegis Nets | Premium Safety Nets & Invisible Grills",
+    description:
+      "Expert safety netting and modern invisible grill installation in Chennai. Rest assured with safety nets built for high durability and style.",
+    url: "https://www.aegisnets.in",
+    siteName: "Aegis Nets",
+    images: [
+      {
+        url: "/images/og-image.webp",
+        width: 1200,
+        height: 630,
+        alt: "Aegis Nets Safety Nets & Invisible Grills",
+      },
+    ],
+    locale: "en_IN",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Aegis Nets | Premium Safety Nets & Invisible Grills",
+    description:
+      "Premium safety nets and invisible grill installers in Chennai, Tamil Nadu.",
+    images: ["/images/og-image.webp"],
+  },
+};
+
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
+  // LocalBusiness Schema
+  const localBusinessSchema = {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "@id": "https://www.aegisnets.in/#localbusiness",
+    "name": "Aegis Nets",
+    "url": "https://www.aegisnets.in",
+    "telephone": "+91 73959 57105",
+    "email": "info.aegisnets@gmail.com",
+    "image": "https://www.aegisnets.in/images/og-image.webp",
+    "priceRange": "₹₹",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Chennai",
+      "addressLocality": "Chennai",
+      "addressRegion": "Tamil Nadu",
+      "postalCode": "600001",
+      "addressCountry": "IN",
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 13.0827,
+      "longitude": 80.2707,
+    },
+    "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday",
+      ],
+      "opens": "08:00",
+      "closes": "20:00",
+    },
+  };
+
+  // Organization Schema
+  const organizationSchema = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Aegis Nets",
+    "url": "https://www.aegisnets.in",
+    "logo": "https://www.aegisnets.in/images/logo.png",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+91-73959-57105",
+      "contactType": "customer service",
+      "areaServed": "IN",
+      "availableLanguage": ["English", "Tamil"],
+    },
+  };
+
+  return (
+    <html
+      lang="en"
+      className={`${inter.variable} ${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+    >
+      <head>
+        {/* Schema markup script injections */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
+        />
+
+        {/* Google Analytics 4 (GA4) - Standard script for GSC Verification */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZCYPR2V24D"></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-ZCYPR2V24D');
+            `,
+          }}
+        />
+
+        {/* Google Tag Manager (GTM) placeholder */}
+        <Script id="gtm" strategy="lazyOnload">
+          {`
+            (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+            })(window,document,'script','dataLayer','GTM-TEMPLATE_ID');
+          `}
+        </Script>
+
+        {/* Microsoft Clarity placeholder */}
+        <Script id="microsoft-clarity" strategy="lazyOnload">
+          {`
+            (function(c,l,a,r,i,t,y){
+                c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+                t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+                y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+            })(window, document, "clarity", "script", "CLARITY_PROJECT_ID");
+          `}
+        </Script>
+      </head>
+      <body className="min-h-full flex flex-col bg-slate-50 text-slate-900 selection:bg-accent-orange selection:text-white">
+        <Navbar />
+        <main className="flex-grow pt-[72px] xl:pt-[84px]">{children}</main>
+        <Footer />
+        <FloatingCTA />
+      </body>
+    </html>
+  );
+}

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 70" width="340" height="70">
+  <defs>
+    <linearGradient id="shieldGradL" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F4C4C" />
+      <stop offset="100%" stop-color="#062424" />
+    </linearGradient>
+    <linearGradient id="goldGradL" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F2D06B" />
+      <stop offset="100%" stop-color="#C9A227" />
+    </linearGradient>
+  </defs>
+
+  <!-- Icon Group -->
+  <g transform="translate(5, 5)">
+    <path d="M 30 4 L 54 13 V 31 C 54 45 44 56 30 60 C 16 56 6 45 6 31 V 13 Z" 
+          fill="url(#shieldGradL)" stroke="url(#goldGradL)" stroke-width="2.5" />
+    <g stroke="url(#goldGradL)" stroke-width="1.2" stroke-opacity="0.85">
+      <line x1="16" y1="22" x2="42" y2="48" />
+      <line x1="24" y1="14" x2="48" y2="38" />
+      <line x1="44" y1="22" x2="18" y2="48" />
+      <line x1="36" y1="14" x2="12" y2="38" />
+    </g>
+  </g>
+
+  <!-- Typography -->
+  <text x="75" y="38" font-family="Inter, system-ui, sans-serif" font-weight="800" font-size="28" fill="#FFFFFF" letter-spacing="-0.5">Aegis Nets</text>
+  <text x="76" y="55" font-family="Inter, system-ui, sans-serif" font-weight="700" font-size="9.5" fill="#E5C158" letter-spacing="1.8">SAFETY NETS &amp; INVISIBLE GRILLS</text>
+</svg>
