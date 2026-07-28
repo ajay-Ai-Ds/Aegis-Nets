@@ -29,7 +29,7 @@ const categories: Category[] = [
     id: 2,
     name: "Invisible Grills",
     count: "3 Services Available",
-    image: "/images/hero/balconygrill.jpg",
+    image: "/images/hero/balconygrill.webp",
     icon: <Eye className="w-6 h-6 text-white" />,
     description: "Preserve beautiful scenic views while ensuring absolute balcony security with modern nylon-coated stainless steel invisible grills.",
     slug: "invisible-grills",

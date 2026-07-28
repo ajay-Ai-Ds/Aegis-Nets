@@ -28,7 +28,7 @@ const slides: Slide[] = [
   },
   {
     id: 2,
-    image: "/images/hero/balconygrill.jpg",
+    image: "/images/hero/balconygrill.webp",
     badge: "Architectural Elegance",
     title: "Elegant Invisible Grills for Windows & Balconies",
     subtitle: "Get zero-blockage panoramic views and top-tier security. Made of high-grade 316 marine stainless steel wires wrapped in nylon coating.",

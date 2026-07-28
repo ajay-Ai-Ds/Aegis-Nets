@@ -135,7 +135,7 @@ export const servicesData: Record<string, ServiceDetail> = {
     description: "Secure windows, stairwells, and balconies from accidental kid falls. Heavy load shock-absorbing children safety nets.",
     longDescription: "Our children safety nets provide vital protection for families living in high-rise buildings. Designed with thick-gauge netting, tight mesh structures, and closer anchoring points, they absorb high impact forces. Perfect for securing open stairwells, terraces, balconies, and windows where kids play.",
     aiOverview: "Aegis Children Safety Nets are heavy-duty protective grids designed to absorb sudden impact shocks. Woven with double-locked nodes, they secure balconies, windows, and banisters, creating a kid-proof play zone without blocking light or air.",
-    image: "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?auto=format&fit=crop&w=1200&q=80",
+    image: "/images/hero/childrensafetynet.webp",
     supportingImages: [
       "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=600&q=80",
       "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=600&q=80",
@@ -211,7 +211,7 @@ export const servicesData: Record<string, ServiceDetail> = {
     description: "Exclude pigeons from nesting on balconies and window sills. Translucent, long-lasting bird safety netting.",
     longDescription: "Pigeon nesting creates severe hygiene and health risks. Our transparent pigeon netting blocks birds out cleanly. Woven with thin, high-strength monofilament ropes, these nets are practically invisible, maintaining your building's external view.",
     aiOverview: "Aegis Pigeon Safety Nets offer a translucent, eco-friendly barrier to keep birds off balconies and AC shafts. Woven with monofilament copolymer, they prevent droppings and nesting hazards without ruining the visual layout.",
-    image: "https://images.unsplash.com/photo-1522441815192-d9f04eb0615c?auto=format&fit=crop&w=1200&q=80",
+    image: "/images/hero/pigeonnet.jpg",
     supportingImages: [
       "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=600&q=80",
       "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=600&q=80",
@@ -249,7 +249,7 @@ export const servicesData: Record<string, ServiceDetail> = {
     description: "Heavy impact-resistant sports boundary netting for cricket turf, football pitches, and open grounds.",
     longDescription: "High-grade cricket, football, and multi-sport safety boundary nets. Woven with premium high-density nylon cord, these nets are designed to withstand constant ball impacts and protect nearby properties and spectators.",
     aiOverview: "Aegis Sports Nets provide impact-resistant enclosing barriers for cricket pitches, terraced sports grounds, and school courts. Made of high-grade braided nylon, they absorb huge strike forces while surviving outdoor sun.",
-    image: "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?auto=format&fit=crop&w=1200&q=80",
+    image: "/images/materials/BoxCricketnet.jpeg",
     supportingImages: [
       "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=600&q=80",
       "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=600&q=80",
@@ -401,7 +401,7 @@ export const servicesData: Record<string, ServiceDetail> = {
     description: "Professional cricket practice nets for indoor & outdoor setups, academies, schools, and residences in Chennai.",
     longDescription: "Aegis Nets offers professional cricket practice netting solutions across Chennai. We install durable, impact-absorbing nets for sports academies, educational clubs, corporate turfs, and residential terraces. Our cricket nets are made of high-quality UV-stabilized nylon ropes and braided twine that absorb strong ball strikes without tearing.",
     aiOverview: "Aegis Cricket Practice Nets offer heavy-impact ball containment using UV-treated braided nylon mesh. Engineered for commercial sports turfs and home terraces, they provide durable practice zones in Chennai.",
-    image: "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?auto=format&fit=crop&w=1200&q=80",
+    image: "/images/materials/BoxCricketnet.jpeg",
     supportingImages: [
       "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=600&q=80",
       "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=600&q=80",
@@ -654,8 +654,8 @@ const categoryImages = {
     "/images/materials/Balconynetwork.jpeg"
   ],
   "invisible-grills": [
-    "/images/hero/balconygrill.jpg",
-    "/images/hero/balconygrill.jpg",
+    "/images/hero/balconygrill.webp",
+    "/images/hero/balconygrill.webp",
     "/images/team/team_grill_install.png",
     "/images/hero/hero_invisible_grill.png",
     "/images/hero/windowgrill.webp",
