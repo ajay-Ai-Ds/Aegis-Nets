@@ -37,6 +37,15 @@ const slides: Slide[] = [
   },
   {
     id: 3,
+    image: "/images/materials/aegis-material1.jpg",
+    badge: "Certified Materials",
+    title: "100% UV-Stabilized Copolymer Netting",
+    subtitle: "Certified high-tensile HDPE safety nets engineered for max durability against extreme coastal weather and sun exposure.",
+    ctaText: "View Material Specs",
+    ctaLink: "#materials",
+  },
+  {
+    id: 4,
     image: "/images/hero/hero_cloth_hanger.png",
     badge: "Space-Saving Innovation",
     title: "Premium Ceiling & Balcony Cloth Hangers",
@@ -45,7 +54,16 @@ const slides: Slide[] = [
     ctaLink: "#services",
   },
   {
-    id: 4,
+    id: 5,
+    image: "/images/materials/aegis-material2.jpg",
+    badge: "Marine Grade Quality",
+    title: "SS316 High-Tension Marine Grade Cables",
+    subtitle: "Rustproof 316 stainless steel wire cables with protective nylon jacketing supporting load tension up to 400kg.",
+    ctaText: "Explore Wire Cables",
+    ctaLink: "#materials",
+  },
+  {
+    id: 6,
     image: "/images/hero/hero_safety_net.png",
     badge: "Premium Protection",
     title: "Heavy-Duty Safety Nets & Balcony Netting Solutions",
@@ -61,7 +79,7 @@ const totalSlides = slides.length;
 const extendedSlides = [slides[totalSlides - 1], ...slides, slides[0]];
 
 const TRANSITION_DURATION = 700; // ms
-const AUTOPLAY_INTERVAL = 3000; // ms
+const AUTOPLAY_INTERVAL = 3500; // ms (3.5 seconds between slide transitions)
 
 export default function HeroCarousel() {
   // index into extendedSlides; starts at 1 (first real slide)
