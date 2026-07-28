@@ -14,35 +14,46 @@ interface Material {
 const materials: Material[] = [
   {
     id: 1,
-    name: "Copolymer Nylon Safety Nets",
-    image: "/images/services/service_balcony_net.png",
+    name: "High-Tensile Copolymer Netting",
+    image: "/images/materials/aegis-material1.jpg",
     specs: [
       "100% UV-Stabilized HDPE Nylon",
       "Break load capacity of up to 150kg",
-      "Weatherproof: handles sea air humidity",
-      "0.8mm to 2.5mm customized thickness",
+      "Weatherproof sea air resistant",
+      "Customized mesh gauge thickness",
     ],
   },
   {
     id: 2,
-    name: "SS316 Marine Grade Cables",
-    image: "/images/hero/hero_invisible_grill.png",
+    name: "SS316 Marine Grade Wire Cables",
+    image: "/images/materials/aegis-material2.jpg",
     specs: [
-      "316 marine-grade rustproof steel",
-      "Wrapped in clear high-elastic nylon",
+      "316 marine-grade stainless steel",
+      "High-elastic clear nylon jacket",
       "Supports tension loads up to 400kg",
-      "Sleek 2.0mm to 3.0mm diameter",
+      "Sleek 2.0mm to 3.0mm cable diameter",
     ],
   },
   {
     id: 3,
-    name: "Pulley Drying Rails",
-    image: "/images/hero/hero_cloth_hanger.png",
+    name: "Stainless Steel Hanger System",
+    image: "/images/materials/aegis-material3.jpg",
     specs: [
-      "Thick rust-free stainless steel pipes",
-      "Nylon braided cords with smooth pulleys",
-      "Handles up to 15kg load per pipe",
-      "Space-saving double rope lockers",
+      "Heavy-gauge rustproof steel pipes",
+      "Nylon braided cord & brass pulleys",
+      "15kg load capacity per pipe",
+      "Space-saving dual rope locking",
+    ],
+  },
+  {
+    id: 4,
+    name: "Protective Hardware & Spikes",
+    image: "/images/materials/aegis-material4.jpg",
+    specs: [
+      "UV Polycarbonate anti-bird spikes",
+      "Industrial expansion anchor bolts",
+      "Corrosion-resistant aluminum tracks",
+      "Long-lasting outdoor durability",
     ],
   },
 ];
@@ -64,8 +75,8 @@ export default function Materials() {
           </p>
         </div>
 
-        {/* Materials Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        {/* Materials Grid (4 Column Layout) */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {materials.map((item, index) => (
             <motion.div
               key={item.id}
@@ -73,28 +84,28 @@ export default function Materials() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-50px" }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
-              className="bg-slate-50 rounded-3xl overflow-hidden border border-slate-100 flex flex-col group hover:shadow-lg transition-shadow duration-300"
+              className="bg-[#F7F5F0] rounded-3xl overflow-hidden border border-slate-200/80 flex flex-col group hover:shadow-xl hover:border-accent-orange/30 transition-all duration-300"
             >
               {/* Product Image */}
-              <div className="relative h-56 w-full overflow-hidden">
+              <div className="relative h-52 w-full overflow-hidden bg-slate-200">
                 <Image
                   src={item.image}
                   alt={item.name}
                   fill
-                  sizes="(max-width: 768px) 100vw, 33vw"
+                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
                   className="object-cover transition-transform duration-500 group-hover:scale-105"
                 />
               </div>
 
               {/* Specifications Content */}
-              <div className="p-8 flex flex-col flex-grow">
-                <h3 className="text-lg font-bold text-slate-800 mb-4 group-hover:text-accent-orange transition-colors">
+              <div className="p-6 flex flex-col flex-grow">
+                <h3 className="text-base font-bold text-primary-700 mb-3 group-hover:text-accent-orange transition-colors">
                   {item.name}
                 </h3>
-                <ul className="space-y-3 flex-grow">
+                <ul className="space-y-2.5 flex-grow">
                   {item.specs.map((spec, i) => (
-                    <li key={i} className="flex items-start gap-2.5 text-xs sm:text-sm text-slate-600">
-                      <ShieldCheck className="w-4 h-4 text-success-green shrink-0 mt-0.5" />
+                    <li key={i} className="flex items-start gap-2 text-xs text-slate-600">
+                      <ShieldCheck className="w-3.5 h-3.5 text-accent-orange shrink-0 mt-0.5" />
                       <span>{spec}</span>
                     </li>
                   ))}
