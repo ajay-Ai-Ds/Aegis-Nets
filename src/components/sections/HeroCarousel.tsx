@@ -19,7 +19,7 @@ interface Slide {
 const slides: Slide[] = [
   {
     id: 1,
-    image: "/images/services/service_pigeon_net.png",
+    image: "/images/materials/Balconynetwork.jpeg",
     badge: "Pigeon Exclusion",
     title: "100% Pigeon & Bird Proofing Balcony Nets",
     subtitle: "Keep pigeons and birds away from nesting on your balcony. Elegant, durable, and transparent netting solutions.",
@@ -46,7 +46,7 @@ const slides: Slide[] = [
   },
   {
     id: 4,
-    image: "/images/hero/hero_cloth_hanger.png",
+    image: "/images/materials/clothhangerwork.jpeg",
     badge: "Space-Saving Innovation",
     title: "Premium Ceiling & Balcony Cloth Hangers",
     subtitle: "Maximize your living space with our smooth dual-pipe pulley drying system. Rust-proof stainless steel pipes engineered for absolute convenience.",
@@ -64,7 +64,7 @@ const slides: Slide[] = [
   },
   {
     id: 6,
-    image: "/images/hero/hero_safety_net.png",
+    image: "/images/materials/BoxCricketnet.jpeg",
     badge: "Premium Protection",
     title: "Heavy-Duty Safety Nets & Balcony Netting Solutions",
     subtitle: "Absolute safety for your children and pets without compromising ventilation. Customized high-tensile netting engineered to endure extreme Chennai weather.",

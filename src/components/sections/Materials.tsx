@@ -56,6 +56,39 @@ const materials: Material[] = [
       "Long-lasting outdoor durability",
     ],
   },
+  {
+    id: 5,
+    name: "Industrial Safety Mesh Samples",
+    image: "/images/materials/materias5.jpeg",
+    specs: [
+      "Heavy-gauge industrial netting weave",
+      "High impact fall protection grade",
+      "Fire-retardant safety coating",
+      "Custom perimeter rope border",
+    ],
+  },
+  {
+    id: 6,
+    name: "Precision Anchoring Hardware",
+    image: "/images/materials/Materials6.jpeg",
+    specs: [
+      "Heavy-duty expansion anchor sleeves",
+      "High-grade brass & SS pulley sets",
+      "Zero-slack cable tension locks",
+      "Vibration & wind resistant mounts",
+    ],
+  },
+  {
+    id: 7,
+    name: "Custom Mesh Thread Gauge",
+    image: "/images/materials/Materials7.jpeg",
+    specs: [
+      "Multiple thread ply options (15 to 30 ply)",
+      "Transparent & translucent finishes",
+      "Zero air blockage design",
+      "Certified 5-year outdoor lifespan",
+    ],
+  },
 ];
 
 export default function Materials() {
@@ -75,19 +108,19 @@ export default function Materials() {
           </p>
         </div>
 
-        {/* Materials Grid (4 Column Layout) */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        {/* Materials Grid */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
           {materials.map((item, index) => (
             <motion.div
               key={item.id}
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-50px" }}
-              transition={{ duration: 0.5, delay: index * 0.1 }}
+              transition={{ duration: 0.5, delay: index * 0.08 }}
               className="bg-[#F7F5F0] rounded-3xl overflow-hidden border border-slate-200/80 flex flex-col group hover:shadow-xl hover:border-accent-orange/30 transition-all duration-300"
             >
               {/* Product Image */}
-              <div className="relative h-52 w-full overflow-hidden bg-slate-200">
+              <div className="relative h-56 w-full overflow-hidden bg-slate-200">
                 <Image
                   src={item.image}
                   alt={item.name}

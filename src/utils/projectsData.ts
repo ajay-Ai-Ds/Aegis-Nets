@@ -145,13 +145,13 @@ export const projectsData: Record<string, ProjectDetail> = {
 Object.keys(projectsData).forEach((slug) => {
   const project = projectsData[slug];
   if (project.category === "safety-nets") {
-    project.image = "/images/services/service_balcony_net.png";
-    project.afterImage = "/images/services/service_balcony_net.png";
+    project.image = "/images/materials/Balconynetwork.jpeg";
+    project.afterImage = "/images/materials/Balconynetwork.jpeg";
   } else if (project.category === "invisible-grills") {
-    project.image = "/images/hero/hero_invisible_grill.png";
-    project.afterImage = "/images/hero/hero_invisible_grill.png";
+    project.image = "/images/materials/BoxCricketnet.jpeg";
+    project.afterImage = "/images/materials/BoxCricketnet.jpeg";
   } else if (project.category === "cloth-hangers") {
-    project.image = "/images/hero/hero_cloth_hanger.png";
-    project.afterImage = "/images/hero/hero_cloth_hanger.png";
+    project.image = "/images/materials/clothhangerwork.jpeg";
+    project.afterImage = "/images/materials/clothhangerwork.jpeg";
   }
 });

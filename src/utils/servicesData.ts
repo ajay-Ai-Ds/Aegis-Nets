@@ -628,13 +628,13 @@ export const servicesData: Record<string, ServiceDetail> = {
 
 // Dynamically override all generic placeholders with Aegis's real, client-uploaded safety installation photos
 const imageOverrides: Record<string, string> = {
-  "balcony-safety-nets": "/images/services/service_balcony_net.png",
+  "balcony-safety-nets": "/images/materials/Balconynetwork.jpeg",
   "children-safety-nets": "/images/services/service_children_net.png",
   "pet-safety-nets": "/images/services/service_pet_net.png",
   "pigeon-safety-nets": "/images/services/service_pigeon_net.png",
-  "sports-nets": "/images/services/service_sports_net.png",
-  "cricket-practice-nets": "/images/services/service_sports_net.png",
-  "construction-safety-nets": "/images/services/service_construction_net.png",
+  "sports-nets": "/images/materials/BoxCricketnet.jpeg",
+  "cricket-practice-nets": "/images/materials/BoxCricketnet.jpeg",
+  "construction-safety-nets": "/images/materials/FactoryNets.jpeg",
   "duct-area-safety-nets": "/images/services/service_duct_net.png",
   "monkey-safety-nets": "/images/services/service_monkey_net.png",
   "balcony-invisible-grills": "/images/hero/hero_invisible_grill.png",
@@ -647,11 +647,11 @@ const imageOverrides: Record<string, string> = {
 const categoryImages = {
   "safety-nets": [
     "/images/hero/hero_safety_net.png",
-    "/images/services/service_balcony_net.png",
+    "/images/materials/Balconynetwork.jpeg",
     "/images/team/team_net_install.png",
     "/images/services/service_children_net.png",
     "/images/services/service_pigeon_net.png",
-    "/images/services/service_balcony_net.png"
+    "/images/materials/Balconynetwork.jpeg"
   ],
   "invisible-grills": [
     "/images/services/service_invisible_grill.png",
@@ -662,11 +662,11 @@ const categoryImages = {
     "/images/services/service_children_net.png"
   ],
   "cloth-hangers": [
-    "/images/services/service_ceiling_hanger.png",
+    "/images/materials/clothhangerwork.jpeg",
     "/images/team/team_hanger_install.png",
     "/images/hero/hero_cloth_hanger.png",
     "/images/services/service_balcony_hanger.png",
-    "/images/services/service_ceiling_hanger.png",
+    "/images/materials/clothhangerwork.jpeg",
     "/images/hero/hero_cloth_hanger.png"
   ]
 };
