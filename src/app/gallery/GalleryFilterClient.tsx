@@ -33,7 +33,7 @@ const galleryData: GalleryPhoto[] = [
     description: "Elegant SS316 steel wire invisible grills offering panoramic views.",
   },
   {
-    image: "/images/services/service_ceiling_hanger.png",
+    image: "/images/materials/clothhangerwork.jpeg",
     category: "cloth-hangers",
     categoryLabel: "Cloth Hangers",
     location: "Velachery, Chennai",

@@ -641,7 +641,7 @@ const imageOverrides: Record<string, string> = {
   "window-invisible-grills": "/images/services/service_window_grill.png",
   "staircase-invisible-grills": "/images/services/service_children_net.png",
   "ceiling-cloth-hangers": "/images/hero/hero_cloth_hanger.png",
-  "balcony-cloth-hangers": "/images/services/service_balcony_hanger.png",
+  "balcony-cloth-hangers": "/images/materials/clothhangerwork.jpeg",
 };
 
 const categoryImages = {
@@ -665,7 +665,7 @@ const categoryImages = {
     "/images/materials/clothhangerwork.jpeg",
     "/images/team/team_hanger_install.png",
     "/images/hero/hero_cloth_hanger.png",
-    "/images/services/service_balcony_hanger.png",
+    "/images/materials/clothhangerwork.jpeg",
     "/images/materials/clothhangerwork.jpeg",
     "/images/hero/hero_cloth_hanger.png"
   ]

@@ -38,7 +38,7 @@ const categories: Category[] = [
     id: 3,
     name: "Cloth Hangers",
     count: "2 Services Available",
-    image: "/images/services/service_ceiling_hanger.png",
+    image: "/images/materials/clothhangerwork.jpeg",
     icon: <Settings className="w-6 h-6 text-white" />,
     description: "Install dual-pipe pulley ceiling cloth drying hangers or balcony wall-mounted hangers to maximize space and drying efficiency.",
     slug: "cloth-hangers",
