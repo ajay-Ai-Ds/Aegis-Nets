@@ -14,79 +14,79 @@ interface Material {
 const materials: Material[] = [
   {
     id: 1,
-    name: "High-Tensile Copolymer Netting",
+    name: "High-Density UV Copolymer Netting",
     image: "/images/materials/aegis-material1.jpg",
     specs: [
-      "100% UV-Stabilized HDPE Nylon",
-      "Break load capacity of up to 150kg",
-      "Weatherproof sea air resistant",
-      "Customized mesh gauge thickness",
+      "100% UV-Stabilized HDPE Copolymer",
+      "30mm to 50mm mesh opening size",
+      "Break load capacity up to 150kg per strand",
+      "Resistant to sea air humidity & extreme sun",
     ],
   },
   {
     id: 2,
-    name: "SS316 Marine Grade Wire Cables",
+    name: "Heavy-Duty Balcony Safety Mesh",
     image: "/images/materials/aegis-material2.jpg",
     specs: [
-      "316 marine-grade stainless steel",
-      "High-elastic clear nylon jacket",
-      "Supports tension loads up to 400kg",
-      "Sleek 2.0mm to 3.0mm cable diameter",
+      "Double-knot reinforced nylon weave",
+      "High tensile strength for high-floor balconies",
+      "Translucent finish preserving open view",
+      "Non-abrasive safe for children & pets",
     ],
   },
   {
     id: 3,
-    name: "Stainless Steel Hanger System",
+    name: "Pigeon & Anti-Bird Fine Mesh Netting",
     image: "/images/materials/aegis-material3.jpg",
     specs: [
-      "Heavy-gauge rustproof steel pipes",
-      "Nylon braided cord & brass pulleys",
-      "15kg load capacity per pipe",
-      "Space-saving dual rope locking",
+      "25mm to 35mm fine anti-bird mesh opening",
+      "100% effective against pigeon nesting",
+      "Lightweight with ultra-high tear resistance",
+      "Zero maintenance weatherproof quality",
     ],
   },
   {
     id: 4,
-    name: "Protective Hardware & Spikes",
+    name: "Cricket & Sports Practice Netting",
     image: "/images/materials/aegis-material4.jpg",
     specs: [
-      "UV Polycarbonate anti-bird spikes",
-      "Industrial expansion anchor bolts",
-      "Corrosion-resistant aluminum tracks",
-      "Long-lasting outdoor durability",
+      "15-ply to 30-ply heavy cord thickness",
+      "High-impact ball shock absorption",
+      "UV-treated for open sunlight sports grounds",
+      "Reinforced heavy boundary rope edges",
     ],
   },
   {
     id: 5,
-    name: "Industrial Safety Mesh Samples",
+    name: "SS316 Invisible Grill Wire Rolls",
     image: "/images/materials/materias5.jpeg",
     specs: [
-      "Heavy-gauge industrial netting weave",
-      "High impact fall protection grade",
-      "Fire-retardant safety coating",
-      "Custom perimeter rope border",
+      "316 marine-grade rustproof steel wire core",
+      "Coated with clear high-elastic nylon sheath",
+      "Supports heavy tension load rating up to 400kg",
+      "Sleek 2.0mm to 3.0mm cable diameter",
     ],
   },
   {
     id: 6,
-    name: "Precision Anchoring Hardware",
+    name: "Certified Installation Technicians",
     image: "/images/materials/Materials6.jpeg",
     specs: [
-      "Heavy-duty expansion anchor sleeves",
-      "High-grade brass & SS pulley sets",
-      "Zero-slack cable tension locks",
-      "Vibration & wind resistant mounts",
+      "10+ years experienced installation crew",
+      "Trained in high-rise building anchoring safety",
+      "Equipped with precision tensioning tools",
+      "Clean site cleanup after every installation",
     ],
   },
   {
     id: 7,
-    name: "Custom Mesh Thread Gauge",
+    name: "Aluminum Track System Frames",
     image: "/images/materials/Materials7.jpeg",
     specs: [
-      "Multiple thread ply options (15 to 30 ply)",
-      "Transparent & translucent finishes",
-      "Zero air blockage design",
-      "Certified 5-year outdoor lifespan",
+      "Heavy-duty extruded aluminum alloy channels",
+      "Powder-coated rustproof metallic finish",
+      "Concealed internal locking mechanism",
+      "Custom cut for precise balcony & window frames",
     ],
   },
 ];
@@ -98,13 +98,13 @@ export default function Materials() {
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16 flex flex-col gap-3">
           <span className="text-xs font-bold uppercase tracking-widest text-accent-orange bg-orange-50 px-3.5 py-1.5 rounded-full inline-block self-center">
-            Material Specifications
+            Safety Net Material Specifications
           </span>
           <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-800 tracking-tight leading-tight">
-            Built to Protect: Premium Industrial Materials
+            Built to Protect: Premium Safety Netting Materials
           </h2>
           <p className="text-slate-500 text-sm leading-relaxed">
-            We source only certified, heavy-duty raw materials built to withstand the humid coastal climate of Chennai.
+            We source only certified, heavy-duty UV-stabilized copolymer safety netting materials engineered to withstand the extreme coastal climate of Chennai.
           </p>
         </div>
 
