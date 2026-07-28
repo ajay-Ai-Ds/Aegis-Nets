@@ -629,17 +629,17 @@ export const servicesData: Record<string, ServiceDetail> = {
 // Dynamically override all generic placeholders with Aegis's real, client-uploaded safety installation photos
 const imageOverrides: Record<string, string> = {
   "balcony-safety-nets": "/images/materials/Balconynetwork.jpeg",
-  "children-safety-nets": "/images/services/service_children_net.png",
-  "pet-safety-nets": "/images/services/service_pet_net.png",
-  "pigeon-safety-nets": "/images/services/service_pigeon_net.png",
-  "sports-nets": "/images/materials/BoxCricketnet.jpeg",
-  "cricket-practice-nets": "/images/materials/BoxCricketnet.jpeg",
-  "construction-safety-nets": "/images/materials/FactoryNets.jpeg",
-  "duct-area-safety-nets": "/images/services/service_duct_net.png",
-  "monkey-safety-nets": "/images/services/service_monkey_net.png",
+  "children-safety-nets": "/images/hero/childrensafetygrill.jpg",
+  "pet-safety-nets": "/images/hero/pet.jpg",
+  "pigeon-safety-nets": "/images/hero/pigeonnet.jpg",
+  "sports-nets": "/images/hero/cricket.jpeg",
+  "cricket-practice-nets": "/images/hero/cricket.jpeg",
+  "construction-safety-nets": "/images/hero/constructionnet.webp",
+  "duct-area-safety-nets": "/images/hero/ductarea.webp",
+  "monkey-safety-nets": "/images/hero/monkeysafetynet.webp",
   "balcony-invisible-grills": "/images/hero/hero_invisible_grill.png",
-  "window-invisible-grills": "/images/services/service_window_grill.png",
-  "staircase-invisible-grills": "/images/services/service_children_net.png",
+  "window-invisible-grills": "/images/hero/windowgrill.webp",
+  "staircase-invisible-grills": "/images/hero/childrensafetygrill.jpg",
   "ceiling-cloth-hangers": "/images/hero/hero_cloth_hanger.png",
   "balcony-cloth-hangers": "/images/materials/clothhangerwork.jpeg",
 };
@@ -649,17 +649,17 @@ const categoryImages = {
     "/images/hero/hero_safety_net.png",
     "/images/materials/Balconynetwork.jpeg",
     "/images/team/team_net_install.png",
-    "/images/services/service_children_net.png",
-    "/images/services/service_pigeon_net.png",
+    "/images/hero/childrensafetygrill.jpg",
+    "/images/hero/pigeonnet.jpg",
     "/images/materials/Balconynetwork.jpeg"
   ],
   "invisible-grills": [
-    "/images/services/service_invisible_grill.png",
-    "/images/services/service_invisible_grill.png",
+    "/images/hero/balconygrill.jpg",
+    "/images/hero/balconygrill.jpg",
     "/images/team/team_grill_install.png",
     "/images/hero/hero_invisible_grill.png",
-    "/images/services/service_window_grill.png",
-    "/images/services/service_children_net.png"
+    "/images/hero/windowgrill.webp",
+    "/images/hero/childrensafetygrill.jpg"
   ],
   "cloth-hangers": [
     "/images/materials/clothhangerwork.jpeg",
