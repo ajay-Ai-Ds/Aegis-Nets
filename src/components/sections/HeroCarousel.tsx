@@ -56,10 +56,10 @@ const slides: Slide[] = [
   {
     id: 5,
     image: "/images/materials/aegis-material2.jpg",
-    badge: "Marine Grade Quality",
-    title: "SS316 High-Tension Marine Grade Cables",
-    subtitle: "Rustproof 316 stainless steel wire cables with protective nylon jacketing supporting load tension up to 400kg.",
-    ctaText: "Explore Wire Cables",
+    badge: "Balcony Safety Solution",
+    title: "High-Tensile Durable Balcony Safety Netting",
+    subtitle: "Certified safety mesh engineered to protect your family and balcony space with long-lasting outdoor durability.",
+    ctaText: "View Safety Net Specs",
     ctaLink: "#materials",
   },
   {
