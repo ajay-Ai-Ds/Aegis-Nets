@@ -38,7 +38,7 @@ export const metadata: Metadata = {
   ],
   metadataBase: new URL("https://www.aegisnets.in"),
   verification: {
-    google: "fYQkLBeMnZJOHutLePpTNA_y7Z98S0mCOZuzBiJdrpE",
+    google: "sxBWfisev7KdCvC-tTgSvXcK8pizCa5U-tnWHB-SUhE",
   },
   alternates: {
     canonical: "/",
@@ -136,6 +136,7 @@ export default function RootLayout({
       className={`${inter.variable} ${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <head>
+        <meta name="google-site-verification" content="sxBWfisev7KdCvC-tTgSvXcK8pizCa5U-tnWHB-SUhE" />
         {/* Schema markup script injections */}
         <script
           type="application/ld+json"
