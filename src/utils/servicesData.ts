@@ -135,7 +135,7 @@ export const servicesData: Record<string, ServiceDetail> = {
     description: "Secure windows, stairwells, and balconies from accidental kid falls. Heavy load shock-absorbing children safety nets.",
     longDescription: "Our children safety nets provide vital protection for families living in high-rise buildings. Designed with thick-gauge netting, tight mesh structures, and closer anchoring points, they absorb high impact forces. Perfect for securing open stairwells, terraces, balconies, and windows where kids play.",
     aiOverview: "Aegis Children Safety Nets are heavy-duty protective grids designed to absorb sudden impact shocks. Woven with double-locked nodes, they secure balconies, windows, and banisters, creating a kid-proof play zone without blocking light or air.",
-    image: "/images/hero/childrensafetynet.webp",
+    image: "/images/hero/childrensafetygrill.jpg",
     supportingImages: [
       "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=600&q=80",
       "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=600&q=80",
