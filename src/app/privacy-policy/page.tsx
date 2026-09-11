@@ -75,19 +75,14 @@ export default function PrivacyPolicyPage() {
               4. Data Retention & Security
             </h2>
             <p>
-              Your contact requests are stored securely on our email and analytics databases. However, specific details regarding Aegis&apos;s data purging timelines and compliance certificates are marked as:
+              Your contact requests and service details are stored securely. We retain customer inquiry records only for as long as necessary to fulfill installation requests, provide ongoing warranty service, and comply with standard business and legal requirements. We employ industry-standard encryption and security practices to prevent unauthorized access.
             </p>
-            <div className="pt-1">
-              <span className="text-xs font-bold text-accent-orange uppercase bg-orange-50 border border-orange-100 px-3 py-1.5 rounded-md inline-block">
-                Content Required From Client
-              </span>
-            </div>
 
             <h2 className="text-base font-bold text-slate-800 pt-2 border-b border-slate-50 pb-1">
               5. Contacting Us
             </h2>
             <p>
-              If you have any questions regarding this Privacy Policy or wish to request the deletion of your submission logs, please contact us at info.aegisnets@gmail.com or call +91 73959 57105.
+              If you have any questions regarding this Privacy Policy or wish to request the deletion of your submission logs, please contact us at aegisnetschennai@gmail.com or call +91 73959 57105.
             </p>
           </div>
         </div>

@@ -93,7 +93,7 @@ export async function fetchSiteSettings() {
     return {
       businessName: "Aegis Nets",
       phone: "+91 73959 57105",
-      email: "info.aegisnets@gmail.com",
+      email: "aegisnetschennai@gmail.com",
       showNewsletter: true,
       socialLinks: {
         facebook: "https://facebook.com/aegisnets",
@@ -115,7 +115,7 @@ export async function fetchSiteSettings() {
     return {
       businessName: "Aegis Nets",
       phone: "+91 73959 57105",
-      email: "info.aegisnets@gmail.com",
+      email: "aegisnetschennai@gmail.com",
       showNewsletter: true,
       socialLinks: {
         facebook: "https://facebook.com/aegisnets",

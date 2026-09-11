@@ -28,7 +28,7 @@ export function generateLocalBusinessSchema(areaName?: string) {
     "name": `Aegis Nets${areaName ? ` - ${areaName}` : ""}`,
     "url": `https://www.aegisnets.in${areaName ? `/areas/${areaName.toLowerCase().replace(/\s+/g, "-")}` : ""}`,
     "telephone": "+91 73959 57105",
-    "email": "info.aegisnets@gmail.com",
+    "email": "aegisnetschennai@gmail.com",
     "image": "https://www.aegisnets.in/images/og-image.webp",
     "priceRange": "₹₹",
     "address": {
@@ -98,7 +98,7 @@ export function generateServiceSchema(serviceName: string, categoryName: string,
       "@type": "LocalBusiness",
       "name": "Aegis Nets",
       "telephone": "+91 73959 57105",
-      "email": "info.aegisnets@gmail.com",
+      "email": "aegisnetschennai@gmail.com",
     },
     "description": description,
     "areaServed": {

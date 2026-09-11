@@ -6,6 +6,8 @@ import { Menu, X, Phone, MessageSquare, ArrowRight, Mail } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import Logo from "../ui/Logo";
 
+import { trackPhoneClick, trackWhatsAppClick } from "@/utils/analytics";
+
 const navLinks = [
   { label: "Home", href: "/" },
   { label: "About", href: "/about" },
@@ -44,18 +46,24 @@ export default function Navbar() {
       <div className="fixed top-0 left-0 right-0 z-50 bg-primary-700 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between py-2">
           <div className="flex items-center gap-6 text-[11px] sm:text-xs font-medium">
-            <a href="tel:+917395957105" className="flex items-center gap-1.5 hover:text-accent-orange transition-colors" aria-label="Call Us">
+            <a
+              href="tel:+917395957105"
+              onClick={() => trackPhoneClick("Navbar Top Bar")}
+              className="flex items-center gap-1.5 hover:text-accent-orange transition-colors"
+              aria-label="Call Us"
+            >
               <Phone className="w-3 h-3" />
               <span>+91 73959 57105</span>
             </a>
-            <a href="mailto:info.aegisnets@gmail.com" className="hidden sm:flex items-center gap-1.5 hover:text-accent-orange transition-colors" aria-label="Email Us">
+            <a href="mailto:aegisnetschennai@gmail.com" className="hidden sm:flex items-center gap-1.5 hover:text-accent-orange transition-colors" aria-label="Email Us">
               <Mail className="w-3 h-3" />
-              <span>info.aegisnets@gmail.com</span>
+              <span>aegisnetschennai@gmail.com</span>
             </a>
           </div>
           <div className="flex items-center gap-4 text-[11px] sm:text-xs font-medium">
             <a
               href="https://wa.me/917395957105?text=Hi%20Aegis%20Nets%2C%20I%20would%20like%20to%20request%20a%20free%20quote%20for%20safety%20nets%2Finvisible%20grills."
+              onClick={() => trackWhatsAppClick("Navbar Top Bar")}
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-1.5 hover:text-accent-orange transition-colors"
@@ -102,6 +110,7 @@ export default function Navbar() {
               {/* Phone CTA */}
               <a
                 href="tel:+917395957105"
+                onClick={() => trackPhoneClick("Navbar Desktop CTA")}
                 className="flex items-center gap-2 text-xs font-bold text-slate-700 hover:text-accent-orange transition-colors duration-200 bg-accent-orange text-white hover:bg-accent-hover transition-colors rounded-full px-4 py-2 shadow-xs"
                 aria-label="Call Aegis Nets"
               >
@@ -112,6 +121,7 @@ export default function Navbar() {
               {/* WhatsApp CTA */}
               <a
                 href="https://wa.me/917395957105?text=Hi%20Aegis%20Nets%2C%20I%20would%20like%20to%20request%20a%20free%20quote%20for%20safety%20nets%2Finvisible%20grills."
+                onClick={() => trackWhatsAppClick("Navbar Desktop CTA")}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center p-2 text-success-green hover:bg-emerald-50 rounded-full transition-colors duration-200"

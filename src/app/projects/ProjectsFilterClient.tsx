@@ -113,13 +113,7 @@ export default function ProjectsFilterClient() {
                   <span>•</span>
                   <span className="flex items-center gap-1">
                     <Calendar className="w-3.5 h-3.5 text-slate-500 shrink-0" />
-                    {project.date === "Content Required From Client" ? (
-                      <span className="text-accent-orange font-bold uppercase tracking-wider text-[9px] px-1.5 py-0.5 bg-orange-50 rounded-sm leading-none border border-orange-100/50">
-                        Pending Client Data
-                      </span>
-                    ) : (
-                      <span>{project.date}</span>
-                    )}
+                    <span>{project.date}</span>
                   </span>
                 </div>
 

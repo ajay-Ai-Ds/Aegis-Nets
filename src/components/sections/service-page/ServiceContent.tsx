@@ -215,13 +215,7 @@ export function ServiceSpecs({ specsTable }: SpecsProps) {
                     {spec.label}
                   </td>
                   <td className="p-4 sm:p-5 font-semibold text-slate-800">
-                    {spec.value === "Content Required From Client" ? (
-                      <span className="text-accent-orange px-2.5 py-1 bg-orange-50 border border-dashed border-orange-200 rounded-md inline-block text-[10px] uppercase font-bold leading-none">
-                        Content Required From Client
-                      </span>
-                    ) : (
-                      spec.value
-                    )}
+                    {spec.value}
                   </td>
                 </tr>
               ))}

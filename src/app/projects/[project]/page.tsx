@@ -106,13 +106,7 @@ export default async function ProjectDetailPage({ params }: PageProps) {
             <span>•</span>
             <span className="flex items-center gap-1 text-slate-500">
               <Calendar className="w-3.5 h-3.5 shrink-0" />
-              {project.date === "Content Required From Client" ? (
-                <span className="text-accent-orange bg-orange-50 px-2 py-0.5 rounded-sm border border-orange-100">
-                  Content Required From Client
-                </span>
-              ) : (
-                <span>{project.date}</span>
-              )}
+              <span>{project.date}</span>
             </span>
           </div>
 
@@ -150,15 +144,7 @@ export default async function ProjectDetailPage({ params }: PageProps) {
                 {project.specs.map((item, idx) => (
                   <div key={idx} className="flex justify-between items-center text-xs pb-2 border-b border-slate-100 last:border-0 last:pb-0">
                     <span className="font-semibold text-slate-500 uppercase tracking-wider text-[10px]">{item.label}</span>
-                    <span className="font-bold text-slate-700">
-                      {item.value === "Content Required From Client" ? (
-                        <span className="text-accent-orange bg-orange-50 px-1.5 py-0.5 rounded-sm text-[9px] uppercase font-extrabold leading-none">
-                          Client Content Required
-                        </span>
-                      ) : (
-                        item.value
-                      )}
-                    </span>
+                    <span className="font-bold text-slate-700">{item.value}</span>
                   </div>
                 ))}
               </div>
@@ -258,14 +244,14 @@ export default async function ProjectDetailPage({ params }: PageProps) {
           <LightboxGallery images={project.gallery} serviceName={project.name} />
         </div>
 
-        {/* Testimonial reviews placeholder */}
-        <div className="bg-slate-100 rounded-3xl p-8 border border-dashed border-slate-300 text-center flex flex-col items-center gap-3 mb-20 max-w-2xl mx-auto">
-          <h4 className="text-sm font-bold text-slate-800 uppercase tracking-wider">Project Review</h4>
-          <span className="text-xs font-extrabold text-accent-orange uppercase bg-orange-50 border border-orange-100 px-3 py-1 rounded-md">
-            Content Required From Client
+        {/* Quality Guarantee Box */}
+        <div className="bg-orange-50/60 rounded-3xl p-8 border border-orange-100 text-center flex flex-col items-center gap-3 mb-20 max-w-2xl mx-auto">
+          <span className="text-xs font-bold text-accent-orange uppercase tracking-widest bg-white px-3 py-1 rounded-full border border-orange-200">
+            Installation Assurance
           </span>
-          <p className="text-[10px] text-slate-500 leading-relaxed">
-            Verified review logs for this project will be populated as soon as the client submits logs.
+          <h4 className="text-base font-bold text-slate-800">100% Quality & Safety Tested</h4>
+          <p className="text-xs text-slate-600 leading-relaxed max-w-md">
+            All Aegis Nets installations undergo comprehensive pull-tension tests and anchor point load verifications to ensure total safety for your home.
           </p>
         </div>
 

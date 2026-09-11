@@ -90,8 +90,8 @@ export default function ContactPage() {
                 <Mail className="w-5 h-5 text-accent-orange shrink-0 mt-0.5" />
                 <div className="flex flex-col gap-0.5">
                   <span className="text-[10px] uppercase font-bold text-slate-500">Email Address</span>
-                  <a href="mailto:info.aegisnets@gmail.com" className="text-sm font-bold text-slate-700 hover:text-accent-orange transition-colors">
-                    info.aegisnets@gmail.com
+                  <a href="mailto:aegisnetschennai@gmail.com" className="text-sm font-bold text-slate-700 hover:text-accent-orange transition-colors">
+                    aegisnetschennai@gmail.com
                   </a>
                 </div>
               </div>

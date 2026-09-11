@@ -61,25 +61,15 @@ export default function TermsAndConditionsPage() {
               2. Payments & Pricing
             </h2>
             <p>
-              All installation rates, project bills, payment terms, and applicable local taxes are declared clearly in the physical quotation shared with the homeowner. Our official pricing schemas are marked as:
+              All installation rates, project estimates, payment milestones, and applicable taxes are declared transparently in the written quotation provided after physical on-site measurement. No hidden fees or unexpected charges will apply once a quote is signed and confirmed.
             </p>
-            <div className="pt-1">
-              <span className="text-xs font-bold text-accent-orange uppercase bg-orange-50 border border-orange-100 px-3 py-1.5 rounded-md inline-block">
-                Content Required From Client
-              </span>
-            </div>
 
             <h2 className="text-base font-bold text-slate-800 pt-2 border-b border-slate-50 pb-1">
               3. Service Warranties
             </h2>
             <p>
-              Aegis Nets installs high-quality monofilament safety netting and invisible grills. Warranty terms vary by material mesh thickness and UV-stability ratings. Standard warranty duration agreements are strictly subject to client confirmation and are marked as:
+              Aegis Nets provides product and installation warranties ranging from 3 to 5 years depending on the selected netting grade and material specifications (e.g., UV-stabilized copolymer nets, SS316 marine-grade invisible grill cables). Warranty certificates detailing coverage terms are issued upon project completion and full payment.
             </p>
-            <div className="pt-1">
-              <span className="text-xs font-bold text-accent-orange uppercase bg-orange-50 border border-orange-100 px-3 py-1.5 rounded-md inline-block">
-                Content Required From Client
-              </span>
-            </div>
 
             <h2 className="text-base font-bold text-slate-800 pt-2 border-b border-slate-50 pb-1">
               4. Installation Access

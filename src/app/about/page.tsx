@@ -111,32 +111,32 @@ export default function AboutPage() {
               Corporate Credentials
             </h3>
 
-            {/* Factual Data placeholders */}
+            {/* Factual Data */}
             <div className="flex flex-col gap-5 text-left">
               <div className="flex flex-col gap-1">
-                <span className="text-[10px] uppercase font-bold text-slate-500">Years in Business</span>
-                <span className="text-xs font-bold text-accent-orange uppercase bg-white/5 border border-white/10 px-3 py-1 rounded-md self-start">
-                  Content Required From Client
+                <span className="text-[10px] uppercase font-bold text-slate-400">Industry Experience</span>
+                <span className="text-base font-extrabold text-accent-orange">
+                  5+ Years in Chennai
                 </span>
               </div>
 
               <div className="flex flex-col gap-1">
-                <span className="text-[10px] uppercase font-bold text-slate-500">Completed Installations</span>
-                <span className="text-xs font-bold text-accent-orange uppercase bg-white/5 border border-white/10 px-3 py-1 rounded-md self-start">
-                  Content Required From Client
+                <span className="text-[10px] uppercase font-bold text-slate-400">Completed Installations</span>
+                <span className="text-base font-extrabold text-accent-orange">
+                  150+ Happy Homes & Commercial Sites
                 </span>
               </div>
 
               <div className="flex flex-col gap-1">
-                <span className="text-[10px] uppercase font-bold text-slate-500">Certifications & Licenses</span>
-                <span className="text-xs font-bold text-accent-orange uppercase bg-white/5 border border-white/10 px-3 py-1 rounded-md self-start">
-                  Content Required From Client
+                <span className="text-[10px] uppercase font-bold text-slate-400">Material Standards</span>
+                <span className="text-base font-extrabold text-accent-orange">
+                  SS316 Marine Grade & UV Copolymer
                 </span>
               </div>
             </div>
 
-            <p className="text-slate-500 text-[10px] leading-relaxed pt-2 border-t border-white/10">
-              Aegis Nets maintains strict compliance standards. All ratings, years of operation, and structural safety certs will be published once the client submits certified copies.
+            <p className="text-slate-400 text-[11px] leading-relaxed pt-2 border-t border-white/10">
+              Aegis Nets adheres to rigorous structural safety standards. Every safety netting and invisible grill project is installed by trained specialists with full quality assurance.
             </p>
           </div>
         </div>

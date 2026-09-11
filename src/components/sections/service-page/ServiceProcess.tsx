@@ -118,9 +118,18 @@ export function ServiceRelated({ related, categoryName }: RelatedProps) {
   const areas = ["Adyar", "Velachery", "OMR Chennai", "ECR Chennai", "Tambaram"];
 
   const blogs = [
-    { title: "Essential Balcony Safety Tips for Families living in High-Rise Apartments" },
-    { title: "Why SS316 Marine Grade Invisible Grills are Best for Humid Chennai Coastlines" },
-    { title: "Ceiling Pulley Cloth Hangers: Maximizing Compact Living Balcony Space" },
+    {
+      title: "Essential Balcony Safety Tips for Families living in High-Rise Apartments",
+      slug: "child-safety-for-apartments",
+    },
+    {
+      title: "Why SS316 Marine Grade Invisible Grills are Best for Humid Chennai Coastlines",
+      slug: "invisible-grill-cost-chennai",
+    },
+    {
+      title: "Balcony Safety Net Price Guide: Materials & Lifetime Durability",
+      slug: "balcony-safety-net-price-guide",
+    },
   ];
 
   return (
@@ -179,17 +188,18 @@ export function ServiceRelated({ related, categoryName }: RelatedProps) {
               </h3>
               <div className="flex flex-col gap-4">
                 {blogs.map((blog, idx) => (
-                  <div
+                  <Link
                     key={idx}
-                    className="p-4 bg-[#F7F5F0] border border-dashed border-slate-200 rounded-xl flex flex-col gap-2"
+                    href={`/blog/${blog.slug}`}
+                    className="p-4 bg-[#F7F5F0] hover:bg-orange-50 border border-slate-200/60 rounded-xl flex flex-col gap-2 hover:border-accent-orange/30 transition-all group"
                   >
-                    <span className="text-[9px] uppercase font-extrabold text-accent-orange tracking-wider bg-orange-50 border border-orange-100 px-2 py-0.5 rounded-sm inline-block self-start leading-none">
-                      Blog Content Required From Client
+                    <span className="text-[10px] uppercase font-bold text-accent-orange tracking-wider bg-orange-50 border border-orange-100 px-2 py-0.5 rounded-sm inline-block self-start leading-none">
+                      Safety Guide
                     </span>
-                    <span className="text-xs font-bold text-slate-700 leading-snug">
+                    <span className="text-xs font-bold text-slate-700 group-hover:text-accent-orange transition-colors leading-snug">
                       {blog.title}
                     </span>
-                  </div>
+                  </Link>
                 ))}
               </div>
             </div>

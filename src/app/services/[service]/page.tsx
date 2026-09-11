@@ -82,7 +82,7 @@ export default async function ServiceDetailPage({ params }: PageProps) {
       "@type": "LocalBusiness",
       "name": "Aegis Nets",
       "telephone": "+91 73959 57105",
-      "email": "info.aegisnets@gmail.com",
+      "email": "aegisnetschennai@gmail.com",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Chennai",

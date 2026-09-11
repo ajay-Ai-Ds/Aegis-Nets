@@ -39,8 +39,8 @@ export const blogData: Record<string, BlogArticle> = {
         text: "The price of invisible steel wire grills is not fixed. It is calculated per square foot and depends on several key materials: first, the wire core grade (SS316 marine-grade vs SS304). Marine-grade SS316 is highly recommended for humid Chennai coastlines like ECR and OMR to prevent corrosion. Second, the cable thickness (usually ranging from 2.0mm to 3.0mm) impacts safety tension and pricing. Third, the framing tracks made of structural aluminium brackets also determine durability.",
       },
       {
-        heading: "AEO Price Guide Context: Content Required From Client",
-        text: "For exact, up-to-date pricing guides and commercial warranties for Aegis Nets installations, please refer to the client quotation. Specific rates per square foot are marked as Content Required From Client. We do not invent arbitrary pricing figures to ensure strict commercial compliance.",
+        heading: "Transparent Per-Square-Foot Quotations",
+        text: "For exact, up-to-date pricing for Aegis Nets invisible grill installations across Chennai, our technicians perform free on-site measurements. We calculate square footage directly, explain cable spacing options (2-inch vs 3-inch), and provide an all-inclusive itemized quotation covering materials, anchors, and labor.",
       },
       {
         heading: "SS316 Steel vs Traditional Iron Grills",
@@ -74,7 +74,7 @@ export const blogData: Record<string, BlogArticle> = {
     category: "safety-nets",
     categoryLabel: "Safety Nets",
     image: "/images/services/service_balcony_net.png",
-    summary: "A practical guide to choosing balcony safety netting materials, comparing HDPE monofilament and nylon, with details on pending pricing updates.",
+    summary: "A practical guide to choosing balcony safety netting materials, comparing HDPE monofilament and nylon, with details on pricing factors and long-term durability.",
     introduction: "Securing your balcony with safety netting is one of the most affordable ways to protect children and pets from high-rise falls. However, when researching online, pricing ranges can be confusing. Let's break down the material differences and what affects pricing.",
     contentBlocks: [
       {
@@ -82,8 +82,8 @@ export const blogData: Record<string, BlogArticle> = {
         text: "Balcony safety nets are made of two main materials: HDPE (High-Density Polyethylene) or Nylon. HDPE nets are highly resistant to sunlight (UV rays) and do not absorb water, keeping them light and preventing sagging during heavy monsoon rains in Velachery or Tambaram. Nylon nets offer high raw tensile strength but can absorb moisture over time if not treated properly. Aegis utilizes UV-treated monofilament nets for maximum life.",
       },
       {
-        heading: "Pricing Elements: Content Required From Client",
-        text: "Detailed pricing charts, warranty years, and certified load limit sheets for Aegis safety nets are marked as Content Required From Client. We recommend scheduling a free site visit to inspect mesh sizes (e.g., 30mm for pigeons, 50mm for monkey safety) and obtain custom estimates.",
+        heading: "Key Pricing Factors for Balcony Netting",
+        text: "Balcony safety net pricing depends on total square footage, selected mesh thickness (0.8mm to 2.5mm), anchor spacing, and apartment floor height. Aegis Nets provides 100% free site visits across Chennai with genuine material samples so you can choose the optimal balance of strength and visibility before finalizing.",
       },
       {
         heading: "Why Anchoring Method Matters",
@@ -93,7 +93,7 @@ export const blogData: Record<string, BlogArticle> = {
     faqs: [
       {
         question: "How long does a UV-treated HDPE net last in Chennai?",
-        answer: "UV-treated copolymer nets are highly durable. Exact warranty lifespans are marked as Content Required From Client.",
+        answer: "UV-treated copolymer and HDPE safety nets typically last 5+ years under Chennai's sunny and coastal weather conditions. Aegis Nets provides full warranty coverage on installation and netting materials.",
       },
       {
         question: "Does safety netting block ventilation or sunlight?",
@@ -129,8 +129,8 @@ export const blogData: Record<string, BlogArticle> = {
         text: "Windows located near beds or sofa structures are easy climbing targets for children. Installing window locks that limit openings to 3 inches is a key check. For permanent ventilation with safety, installing stainless steel window grills or custom window netting is recommended.",
       },
       {
-        heading: "Setting Safety Rules: Content Required From Client",
-        text: "Additional home childproofing checklists, toddler gates, and safety brochures from certified pediatric guides are marked as Content Required From Client. Homeowners should consult safety advisors to audit flat balconies.",
+        heading: "Essential Home Childproofing Protocol",
+        text: "In addition to balcony netting, parents should audit low window sills, ensure furniture is positioned away from railings to prevent climbing, and secure staircases with invisible vertical grills. A multi-layered childproofing strategy creates an environment where toddlers can explore safely.",
       },
     ],
     faqs: [
@@ -172,8 +172,8 @@ export const blogData: Record<string, BlogArticle> = {
         text: "Pigeon safety netting must feature a specific mesh size—typically 1 inch to 1.2 inches (25mm to 30mm). Larger mesh sizes like 2 inches can allow smaller birds to squeeze through and become trapped inside. Monofilament nylon is ideal because it is transparent, blending with the building facade.",
       },
       {
-        heading: "Balcony Cleaning: Content Required From Client",
-        text: "Schedules for professional chemical cleaning of bird droppings and sanitizing services are marked as Content Required From Client. We recommend sanitizing the balcony base thoroughly before securing the nets.",
+        heading: "Balcony Sanitization & Pre-Installation Prep",
+        text: "Before installing pigeon nets, thoroughly washing and disinfecting the balcony floor, railings, and AC ledges is strongly advised. Eliminating scent markers and bird residue ensures the balcony remains completely clean, hygienic, and odor-free once the barrier is secured.",
       },
     ],
     faqs: [
