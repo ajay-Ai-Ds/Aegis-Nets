@@ -15,7 +15,7 @@ const materials: Material[] = [
   {
     id: 1,
     name: "High-Density UV Copolymer Netting",
-    image: "/images/materials/aegis-material1.jpg",
+    image: "/images/materials/aegis-material1.webp",
     specs: [
       "100% UV-Stabilized HDPE Copolymer",
       "30mm to 50mm mesh opening size",
@@ -26,7 +26,7 @@ const materials: Material[] = [
   {
     id: 2,
     name: "Heavy-Duty Balcony Safety Mesh",
-    image: "/images/materials/aegis-material2.jpg",
+    image: "/images/materials/aegis-material2.webp",
     specs: [
       "Double-knot reinforced nylon weave",
       "High tensile strength for high-floor balconies",
@@ -37,7 +37,7 @@ const materials: Material[] = [
   {
     id: 3,
     name: "Pigeon & Anti-Bird Fine Mesh Netting",
-    image: "/images/materials/aegis-material3.jpg",
+    image: "/images/materials/aegis-material3.webp",
     specs: [
       "25mm to 35mm fine anti-bird mesh opening",
       "100% effective against pigeon nesting",
@@ -48,7 +48,7 @@ const materials: Material[] = [
   {
     id: 4,
     name: "Cricket & Sports Practice Netting",
-    image: "/images/materials/aegis-material4.jpg",
+    image: "/images/materials/aegis-material4.webp",
     specs: [
       "15-ply to 30-ply heavy cord thickness",
       "High-impact ball shock absorption",
@@ -59,7 +59,7 @@ const materials: Material[] = [
   {
     id: 5,
     name: "SS316 Invisible Grill Wire Rolls",
-    image: "/images/materials/materias5.jpeg",
+    image: "/images/materials/materias5.webp",
     specs: [
       "316 marine-grade rustproof steel wire core",
       "Coated with clear high-elastic nylon sheath",
@@ -70,7 +70,7 @@ const materials: Material[] = [
   {
     id: 6,
     name: "Certified Installation Technicians",
-    image: "/images/materials/Materials6.jpeg",
+    image: "/images/materials/Materials6.webp",
     specs: [
       "10+ years experienced installation crew",
       "Trained in high-rise building anchoring safety",
@@ -81,7 +81,7 @@ const materials: Material[] = [
   {
     id: 7,
     name: "Aluminum Track System Frames",
-    image: "/images/materials/Materials7.jpeg",
+    image: "/images/materials/Materials7.webp",
     specs: [
       "Heavy-duty extruded aluminum alloy channels",
       "Powder-coated rustproof metallic finish",
@@ -103,7 +103,7 @@ export default function Materials() {
           <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-800 tracking-tight leading-tight">
             Built to Protect: Premium Safety Netting Materials
           </h2>
-          <p className="text-slate-500 text-sm leading-relaxed">
+          <p className="text-slate-600 text-sm leading-relaxed">
             We source only certified, heavy-duty UV-stabilized copolymer safety netting materials engineered to withstand the extreme coastal climate of Chennai.
           </p>
         </div>

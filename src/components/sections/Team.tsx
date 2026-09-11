@@ -13,32 +13,32 @@ interface GalleryItem {
 const teamWorkGallery: GalleryItem[] = [
   {
     id: 1,
-    image: "/images/team/team_net_install.png",
+    image: "/images/team/team_net_install.webp",
     caption: "Anchoring Balcony Safety Nets",
   },
   {
     id: 2,
-    image: "/images/team/team_grill_install.png",
+    image: "/images/team/team_grill_install.webp",
     caption: "Invisible Grill Cable Tensioning",
   },
   {
     id: 3,
-    image: "/images/team/team_hanger_install.png",
+    image: "/images/team/team_hanger_install.webp",
     caption: "Ceiling Cloth Hanger Mounting",
   },
   {
     id: 4,
-    image: "/images/services/service_balcony_net.png",
+    image: "/images/services/service_balcony_net.webp",
     caption: "Completed Balcony Net Setup",
   },
   {
     id: 5,
-    image: "/images/services/service_window_grill.png",
+    image: "/images/services/service_window_grill.webp",
     caption: "Window Invisible Grill Finish",
   },
   {
     id: 6,
-    image: "/images/services/service_balcony_hanger.png",
+    image: "/images/services/service_balcony_hanger.webp",
     caption: "Pulley Hanger Final Check",
   },
 ];
@@ -55,7 +55,7 @@ export default function Team() {
           <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-800 tracking-tight leading-tight">
             Professional & Insured Installation Team
           </h2>
-          <p className="text-slate-500 text-sm leading-relaxed">
+          <p className="text-slate-600 text-sm leading-relaxed">
             Our field technicians are trained in high-rise anchoring safety guidelines and use certified heavy-duty safety gears.
           </p>
         </div>

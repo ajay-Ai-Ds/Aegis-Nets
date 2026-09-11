@@ -16,7 +16,7 @@ export default function BeforeAfter() {
           <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-800 tracking-tight leading-tight">
             Visible Transformations: Balcony Safety & Clarity
           </h2>
-          <p className="text-slate-500 text-sm leading-relaxed">
+          <p className="text-slate-600 text-sm leading-relaxed">
             See how our installations safeguard your family and pets while keeping birds out and preserving balcony aesthetics.
           </p>
         </div>
@@ -33,7 +33,7 @@ export default function BeforeAfter() {
           >
             <div className="relative h-72 sm:h-96 w-full">
               <Image
-                src="/images/gallery/before_balcony.png"
+                src="/images/gallery/before_balcony.webp"
                 alt="Unprotected Chennai apartment balcony before safety net installation"
                 fill
                 sizes="(max-width: 768px) 100vw, 50vw"
@@ -46,7 +46,7 @@ export default function BeforeAfter() {
             </div>
             <div className="p-6">
               <h3 className="text-base font-bold text-slate-800 mb-2">Before Installation</h3>
-              <p className="text-slate-500 text-xs sm:text-sm leading-relaxed">
+              <p className="text-slate-600 text-xs sm:text-sm leading-relaxed">
                 Balcony exposed to bird nesting, pigeon droppings, and dangerous open hazards for children, pets, or falling objects.
               </p>
             </div>
@@ -62,7 +62,7 @@ export default function BeforeAfter() {
           >
             <div className="relative h-72 sm:h-96 w-full">
               <Image
-                src="/images/gallery/after_balcony.png"
+                src="/images/gallery/after_balcony.webp"
                 alt="Chennai apartment balcony after Aegis safety net installation"
                 fill
                 sizes="(max-width: 768px) 100vw, 50vw"
@@ -75,7 +75,7 @@ export default function BeforeAfter() {
             </div>
             <div className="p-6">
               <h3 className="text-base font-bold text-slate-800 mb-2">After Aegis Professional Setup</h3>
-              <p className="text-slate-500 text-xs sm:text-sm leading-relaxed">
+              <p className="text-slate-600 text-xs sm:text-sm leading-relaxed">
                 Tensioned invisible steel grills or high-density safety netting secured. Enjoy complete safety, bird exclusion, and ventilation.
               </p>
             </div>

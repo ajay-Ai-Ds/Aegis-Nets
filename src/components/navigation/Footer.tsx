@@ -12,13 +12,13 @@ export default function Footer() {
           {/* Brand Info */}
           <div className="flex flex-col gap-5">
             <Logo iconOnly={false} light={true} />
-            <p className="text-slate-400 text-sm leading-relaxed mt-2">
+            <p className="text-slate-300 text-sm leading-relaxed mt-2">
               Aegis Nets is a premium provider of high-grade safety netting solutions and elegant invisible grills in Chennai, Tamil Nadu. Committed to absolute safety, premium durability, and aesthetic design.
             </p>
             <div className="flex flex-col gap-3 mt-1 text-sm">
               <div className="flex items-center gap-3">
                 <Clock className="w-4 h-4 text-accent-orange shrink-0" />
-                <span>Mon - Sun: 8:00 AM - 8:00 PM</span>
+                <span className="text-slate-200">Mon - Sun: 8:00 AM - 8:00 PM</span>
               </div>
             </div>
           </div>
@@ -42,9 +42,9 @@ export default function Footer() {
                 <li key={item.label}>
                   <Link
                     href={item.href}
-                    className="hover:text-white transition-colors duration-200 flex items-center gap-2 group text-slate-400"
+                    className="hover:text-white transition-colors duration-200 flex items-center gap-2 group text-slate-300 font-medium py-1"
                   >
-                    <ArrowRight className="w-3.5 h-3.5 text-slate-600 group-hover:text-accent-orange transition-colors" />
+                    <ArrowRight className="w-3.5 h-3.5 text-slate-400 group-hover:text-accent-orange transition-colors" />
                     <span>{item.label}</span>
                   </Link>
                 </li>
@@ -71,9 +71,9 @@ export default function Footer() {
                 <li key={item.label}>
                   <Link
                     href={item.href}
-                    className="hover:text-white transition-colors duration-200 flex items-center gap-2 group text-slate-400"
+                    className="hover:text-white transition-colors duration-200 flex items-center gap-2 group text-slate-300 font-medium py-1"
                   >
-                    <ArrowRight className="w-3.5 h-3.5 text-slate-600 group-hover:text-accent-orange transition-colors" />
+                    <ArrowRight className="w-3.5 h-3.5 text-slate-400 group-hover:text-accent-orange transition-colors" />
                     <span>{item.label}</span>
                   </Link>
                 </li>
@@ -86,12 +86,12 @@ export default function Footer() {
             <h3 className="text-white font-bold text-base mb-6 tracking-wide relative after:content-[''] after:absolute after:bottom-[-8px] after:left-0 after:w-12 after:h-0.5 after:bg-accent-orange">
               Get in Touch
             </h3>
-            <ul className="space-y-4 text-sm text-slate-400">
+            <ul className="space-y-4 text-sm text-slate-300">
               <li className="flex items-start gap-3">
                 <MapPin className="w-4 h-4 text-accent-orange shrink-0 mt-1" />
                 <div>
                   <span className="font-semibold text-white block">Office Location</span>
-                  <span className="block text-sm text-slate-400 mt-1">
+                  <span className="block text-sm text-slate-300 mt-1">
                     Chennai, Tamil Nadu
                   </span>
                 </div>
@@ -100,10 +100,10 @@ export default function Footer() {
                 <Phone className="w-4 h-4 text-accent-orange shrink-0" />
                 <div>
                   <span className="font-semibold text-white block">Phone Number</span>
-                  <a href="tel:+917395957105" className="hover:text-white transition-colors block">
+                  <a href="tel:+917395957105" className="hover:text-white transition-colors block text-slate-200 font-medium">
                     +91 73959 57105
                   </a>
-                  <a href="tel:+919360915505" className="hover:text-white transition-colors block text-xs text-slate-400 mt-1">
+                  <a href="tel:+919360915505" className="hover:text-white transition-colors block text-xs text-slate-300 mt-1">
                     +91 93609 15505
                   </a>
                 </div>
@@ -112,7 +112,7 @@ export default function Footer() {
                 <Mail className="w-4 h-4 text-accent-orange shrink-0" />
                 <div>
                   <span className="font-semibold text-white block">Email Address</span>
-                  <a href="mailto:aegisnetschennai@gmail.com" className="hover:text-white transition-colors">
+                  <a href="mailto:aegisnetschennai@gmail.com" className="hover:text-white transition-colors text-slate-200 font-medium">
                     aegisnetschennai@gmail.com
                   </a>
                 </div>
@@ -122,13 +122,13 @@ export default function Footer() {
         </div>
 
         {/* Bottom Bar */}
-        <div className="pt-8 mt-8 border-t border-slate-800 text-center md:flex md:justify-between md:items-center text-xs text-slate-500">
+        <div className="pt-8 mt-8 border-t border-slate-700 text-center md:flex md:justify-between md:items-center text-xs text-slate-300">
           <p>© {currentYear} Aegis Nets. All Rights Reserved. Built with absolute premium safety standards.</p>
           <div className="flex justify-center gap-5 mt-4 md:mt-0">
-            <Link href="/privacy-policy" className="hover:text-white transition-colors">
+            <Link href="/privacy-policy" className="hover:text-white transition-colors text-slate-300 underline underline-offset-2">
               Privacy Policy
             </Link>
-            <Link href="/terms-and-conditions" className="hover:text-white transition-colors">
+            <Link href="/terms-and-conditions" className="hover:text-white transition-colors text-slate-300 underline underline-offset-2">
               Terms & Conditions
             </Link>
           </div>

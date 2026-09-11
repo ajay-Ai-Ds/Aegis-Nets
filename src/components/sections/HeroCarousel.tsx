@@ -19,7 +19,7 @@ interface Slide {
 const slides: Slide[] = [
   {
     id: 1,
-    image: "/images/materials/Balconynetwork.jpeg",
+    image: "/images/materials/Balconynetwork.webp",
     badge: "Pigeon Exclusion",
     title: "100% Pigeon & Bird Proofing Balcony Nets",
     subtitle: "Keep pigeons and birds away from nesting on your balcony. Elegant, durable, and transparent netting solutions.",
@@ -37,7 +37,7 @@ const slides: Slide[] = [
   },
   {
     id: 3,
-    image: "/images/materials/aegis-material1.jpg",
+    image: "/images/materials/aegis-material1.webp",
     badge: "Certified Materials",
     title: "100% UV-Stabilized Copolymer Netting",
     subtitle: "Certified high-tensile HDPE safety nets engineered for max durability against extreme coastal weather and sun exposure.",
@@ -46,7 +46,7 @@ const slides: Slide[] = [
   },
   {
     id: 4,
-    image: "/images/materials/clothhangerwork.jpeg",
+    image: "/images/materials/clothhangerwork.webp",
     badge: "Space-Saving Innovation",
     title: "Premium Ceiling & Balcony Cloth Hangers",
     subtitle: "Maximize your living space with our smooth dual-pipe pulley drying system. Rust-proof stainless steel pipes engineered for absolute convenience.",
@@ -55,7 +55,7 @@ const slides: Slide[] = [
   },
   {
     id: 5,
-    image: "/images/materials/aegis-material2.jpg",
+    image: "/images/materials/aegis-material2.webp",
     badge: "Balcony Safety Solution",
     title: "High-Tensile Durable Balcony Safety Netting",
     subtitle: "Certified safety mesh engineered to protect your family and balcony space with long-lasting outdoor durability.",
@@ -64,7 +64,7 @@ const slides: Slide[] = [
   },
   {
     id: 6,
-    image: "/images/materials/BoxCricketnet.jpeg",
+    image: "/images/materials/BoxCricketnet.webp",
     badge: "Premium Protection",
     title: "Heavy-Duty Safety Nets & Balcony Netting Solutions",
     subtitle: "Absolute safety for your children and pets without compromising ventilation. Customized high-tensile netting engineered to endure extreme Chennai weather.",
@@ -216,7 +216,7 @@ export default function HeroCarousel() {
                 alt={slide.title}
                 fill
                 priority={idx === 1}
-                sizes="100vw"
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 100vw, 1920px"
                 className="object-cover object-center"
               />
               <div className="absolute inset-0 bg-[#0F4C4C]/65" />
@@ -257,7 +257,7 @@ export default function HeroCarousel() {
                 {/* Call Button */}
                 <a
                   href="tel:+917395957105"
-                  className="flex items-center gap-2.5 bg-accent-orange text-white font-bold px-6 py-3.5 rounded-full hover:bg-accent-hover transition-colors shadow-lg hover:shadow-xl text-sm"
+                  className="flex items-center gap-2.5 bg-accent-orange text-white font-bold px-6 py-3.5 rounded-full hover:bg-accent-hover transition-colors shadow-lg hover:shadow-xl text-sm min-h-[44px]"
                 >
                   <Phone className="w-4 h-4" />
                   <span>Call +91 73959 57105</span>
@@ -268,7 +268,7 @@ export default function HeroCarousel() {
                   href="https://wa.me/917395957105?text=Hi%20Aegis%20Nets%2C%20I%20would%20like%20to%20request%20a%20free%20quote%20for%20safety%20nets%2Finvisible%20grills."
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center gap-2.5 bg-emerald-600 text-white font-bold px-6 py-3.5 rounded-full hover:bg-emerald-700 transition-colors shadow-lg hover:shadow-xl text-sm"
+                  className="flex items-center gap-2.5 bg-emerald-600 text-white font-bold px-6 py-3.5 rounded-full hover:bg-emerald-700 transition-colors shadow-lg hover:shadow-xl text-sm min-h-[44px]"
                 >
                   <MessageSquare className="w-4 h-4 fill-white/10" />
                   <span>WhatsApp Quote</span>
@@ -277,7 +277,7 @@ export default function HeroCarousel() {
                 {/* Request Quote Button */}
                 <Link
                   href="#contact"
-                  className="flex items-center gap-2 bg-white/15 hover:bg-white/25 text-white font-bold px-6 py-3.5 rounded-full transition-all border border-white/30 backdrop-blur-xs text-sm"
+                  className="flex items-center gap-2 bg-white/15 hover:bg-white/25 text-white font-bold px-6 py-3.5 rounded-full transition-all border border-white/30 backdrop-blur-xs text-sm min-h-[44px]"
                 >
                   <span>Request Quote</span>
                   <ArrowRight className="w-4 h-4" />
@@ -304,18 +304,22 @@ export default function HeroCarousel() {
         <ChevronRight className="w-6 h-6" />
       </button>
 
-      {/* Slide Dot Indicators */}
-      <div className="absolute bottom-6 left-1/2 -translate-x-1/2 flex items-center gap-2.5">
+      {/* Slide Dot Indicators with 44px touch target */}
+      <div className="absolute bottom-6 left-1/2 -translate-x-1/2 flex items-center gap-1 z-20">
         {slides.map((slide, index) => (
           <button
             key={slide.id}
             onClick={() => goToSlide(index)}
-            className={`h-2.5 rounded-full transition-all duration-300 ${
-              index === realIndex ? "w-8 bg-accent-orange" : "w-2.5 bg-white/40 hover:bg-white/70"
-            }`}
+            className="p-3.5 flex items-center justify-center cursor-pointer focus:outline-hidden"
             aria-label={`Go to slide ${index + 1}`}
             aria-current={index === realIndex ? "true" : "false"}
-          />
+          >
+            <span
+              className={`block h-2.5 rounded-full transition-all duration-300 ${
+                index === realIndex ? "w-8 bg-accent-orange" : "w-2.5 bg-white/50 hover:bg-white/80"
+              }`}
+            />
+          </button>
         ))}
       </div>
 

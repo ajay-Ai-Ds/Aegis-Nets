@@ -148,18 +148,19 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
         />
 
-        {/* Google Analytics 4 (GA4) - Standard script for GSC Verification */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZCYPR2V24D"></script>
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', 'G-ZCYPR2V24D');
-            `,
-          }}
+        {/* Google Analytics 4 (GA4) with next/script */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-ZCYPR2V24D"
+          strategy="afterInteractive"
         />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-ZCYPR2V24D');
+          `}
+        </Script>
       </head>
       <body className="min-h-full flex flex-col bg-slate-50 text-slate-900 selection:bg-accent-orange selection:text-white">
         <Navbar />

@@ -66,7 +66,7 @@ export default function WhyChooseUs() {
             {/* Main Image */}
             <div className="absolute inset-0 w-[90%] h-[90%] rounded-3xl overflow-hidden shadow-xl border border-slate-100">
               <Image
-                src="/images/services/service_balcony_net.png"
+                src="/images/services/service_balcony_net.webp"
                 alt="Professional balcony netting installation"
                 fill
                 sizes="(max-width: 1024px) 100vw, 50vw"
@@ -77,7 +77,7 @@ export default function WhyChooseUs() {
             {/* Secondary overlapping card image */}
             <div className="absolute bottom-0 right-0 w-[55%] h-[55%] rounded-3xl overflow-hidden shadow-2xl border-4 border-white hidden sm:block">
               <Image
-                src="/images/services/service_balcony_net.png"
+                src="/images/team/team_net_install.webp"
                 alt="Technician working at height"
                 fill
                 sizes="(max-width: 1024px) 100vw, 30vw"
@@ -87,8 +87,8 @@ export default function WhyChooseUs() {
 
             {/* Experience overlay badge */}
             <div className="absolute top-8 right-4 bg-primary-700 text-white p-6 rounded-2xl shadow-lg max-w-[180px] text-center">
-              <span className="block text-2xl font-extrabold text-primary-700 mb-1">Chennai</span>
-              <span className="block text-xs font-semibold uppercase tracking-wider text-slate-200">
+              <span className="block text-2xl font-extrabold text-accent-orange mb-1">Chennai</span>
+              <span className="block text-xs font-semibold uppercase tracking-wider text-slate-100">
                 Local Trusted Net Experts
               </span>
             </div>
@@ -97,13 +97,13 @@ export default function WhyChooseUs() {
           {/* Right Column: Values */}
           <div className="flex flex-col gap-6">
             <div className="flex flex-col gap-3">
-              <span className="text-xs font-bold uppercase tracking-widest text-primary-700 bg-primary-50 px-3.5 py-1.5 rounded-full inline-block self-start">
+              <span className="text-xs font-bold uppercase tracking-widest text-accent-orange bg-orange-50 px-3.5 py-1.5 rounded-full inline-block self-start">
                 Why Aegis Nets
               </span>
-              <h2 className="text-3xl sm:text-4xl font-extrabold text-primary-700 tracking-tight leading-tight">
+              <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-800 tracking-tight leading-tight">
                 Setting New Benchmarks in Household Safety
               </h2>
-              <p className="text-slate-500 text-sm leading-relaxed">
+              <p className="text-slate-600 text-sm leading-relaxed">
                 We believe that safety shouldn&apos;t feel like a cage. Our team designs and installs high-strength, premium-material safety nets and invisible grills that blend seamlessly into your architecture.
               </p>
             </div>
@@ -122,8 +122,8 @@ export default function WhyChooseUs() {
                     {benefit.icon}
                   </div>
                   <div>
-                    <h3 className="text-sm font-bold text-primary-700 mb-1">{benefit.title}</h3>
-                    <p className="text-slate-500 text-xs leading-relaxed">{benefit.description}</p>
+                    <h3 className="text-sm font-bold text-slate-800 mb-1">{benefit.title}</h3>
+                    <p className="text-slate-600 text-xs leading-relaxed">{benefit.description}</p>
                   </div>
                 </motion.div>
               ))}

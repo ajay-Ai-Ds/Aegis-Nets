@@ -53,7 +53,7 @@ export default function FeaturedServices() {
             <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-800 tracking-tight leading-tight">
               Featured Safety & Hanger Services
             </h2>
-            <p className="text-slate-500 text-sm leading-relaxed">
+            <p className="text-slate-600 text-sm leading-relaxed">
               Explore our full suite of professional services. Handcrafted using premium materials and installed by our certified technicians.
             </p>
           </div>
@@ -65,7 +65,7 @@ export default function FeaturedServices() {
                 <button
                   key={cat}
                   onClick={() => setFilter(cat)}
-                  className={`text-xs sm:text-sm font-bold px-4 py-2.5 rounded-full capitalize cursor-pointer transition-all duration-300 ${
+                  className={`text-xs sm:text-sm font-bold px-4 py-2.5 rounded-full capitalize cursor-pointer transition-all duration-300 min-h-[44px] flex items-center ${
                     filter === cat
                       ? "bg-primary-700 text-white shadow-md"
                       : "bg-white hover:bg-slate-50 text-slate-700 border border-slate-200"
@@ -117,14 +117,14 @@ export default function FeaturedServices() {
                   <h3 className="text-lg font-bold text-slate-800 mb-2 group-hover:text-accent-orange transition-colors">
                     {service.name}
                   </h3>
-                  <p className="text-slate-500 text-xs leading-relaxed mb-5 flex-grow">
+                  <p className="text-slate-600 text-xs leading-relaxed mb-5 flex-grow">
                     {service.description}
                   </p>
 
                   {/* Actions */}
                   <Link
                     href={`/services/${service.slug}`}
-                    className="flex items-center justify-between text-xs font-extrabold uppercase tracking-wider text-primary-700 hover:text-accent-orange transition-colors group/btn pt-4 border-t border-slate-50 mt-auto"
+                    className="flex items-center justify-between text-xs font-extrabold uppercase tracking-wider text-primary-700 hover:text-accent-orange transition-colors group/btn pt-4 border-t border-slate-50 mt-auto min-h-[44px]"
                   >
                     <span>Learn Installation Info</span>
                     <ArrowRight className="w-3.5 h-3.5 transition-transform duration-300 group-hover/btn:translate-x-1" />

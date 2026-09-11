@@ -76,7 +76,7 @@ export default function FAQAccordion() {
           <h2 className="text-3xl sm:text-4xl font-extrabold text-primary-700 tracking-tight leading-tight">
             Frequently Asked Questions
           </h2>
-          <p className="text-accent-orange text-sm leading-relaxed">
+          <p className="text-slate-600 text-sm leading-relaxed">
             Find immediate answers regarding materials, pricing estimates, installation duration, and safety standards.
           </p>
         </div>
@@ -98,7 +98,7 @@ export default function FAQAccordion() {
                   aria-expanded={isOpen}
                   className="w-full flex items-center justify-between p-5 sm:p-6 text-left cursor-pointer focus:outline-hidden"
                 >
-                  <span className="flex items-start gap-3.5 text-sm sm:text-base font-bold text-primary-700 hover:text-accent-orange transition-colors">
+                  <span className="flex items-start gap-3.5 text-sm sm:text-base font-bold text-slate-800 hover:text-accent-orange transition-colors">
                     <HelpCircle className="w-5 h-5 text-accent-orange shrink-0 mt-0.5" />
                     <span>{faq.question}</span>
                   </span>
@@ -117,7 +117,7 @@ export default function FAQAccordion() {
                       transition={{ duration: 0.25, ease: "easeInOut" }}
                       className="overflow-hidden"
                     >
-                      <div className="px-6 pb-6 pt-0 text-accent-orange text-xs sm:text-sm leading-relaxed pl-[46px] border-t border-slate-100/50">
+                      <div className="px-6 pb-6 pt-0 text-slate-700 text-xs sm:text-sm leading-relaxed pl-[46px] border-t border-slate-100/50">
                         {faq.answer}
                       </div>
                     </motion.div>

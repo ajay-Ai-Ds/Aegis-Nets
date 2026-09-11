@@ -51,14 +51,14 @@ export default function CookieConsent() {
                 <h3 className="text-sm font-bold text-white">Cookie & Privacy Settings</h3>
                 <button
                   onClick={handleDecline}
-                  className="text-slate-400 hover:text-white transition-colors cursor-pointer p-1"
+                  className="text-slate-400 hover:text-white transition-colors cursor-pointer p-2.5 min-w-[44px] min-h-[44px] flex items-center justify-center"
                   aria-label="Close cookie banner"
                 >
                   <X className="w-4 h-4" />
                 </button>
               </div>
 
-              <p className="text-xs text-slate-400 leading-relaxed">
+              <p className="text-xs text-slate-300 leading-relaxed">
                 We use cookies and analytics to enhance browsing performance and deliver accurate service quotations. Read our{" "}
                 <Link
                   href="/privacy-policy"
@@ -72,13 +72,13 @@ export default function CookieConsent() {
               <div className="flex items-center gap-3 pt-1">
                 <button
                   onClick={handleAccept}
-                  className="flex-1 bg-accent-orange hover:bg-accent-hover text-white text-xs font-bold py-2.5 px-4 rounded-xl transition-colors cursor-pointer shadow-xs"
+                  className="flex-1 bg-accent-orange hover:bg-accent-hover text-white text-xs font-bold py-3 px-4 rounded-xl transition-colors cursor-pointer shadow-xs min-h-[44px]"
                 >
                   Accept All
                 </button>
                 <button
                   onClick={handleDecline}
-                  className="bg-white/10 hover:bg-white/15 text-slate-300 text-xs font-semibold py-2.5 px-4 rounded-xl transition-colors cursor-pointer"
+                  className="bg-white/10 hover:bg-white/15 text-slate-200 text-xs font-semibold py-3 px-4 rounded-xl transition-colors cursor-pointer min-h-[44px]"
                 >
                   Decline
                 </button>
