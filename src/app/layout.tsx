@@ -148,16 +148,17 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
         />
 
-        {/* Google Analytics 4 (GA4) with next/script */}
+        {/* Google tag (gtag.js) - Google Ads & GA4 */}
         <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-ZCYPR2V24D"
+          src="https://www.googletagmanager.com/gtag/js?id=AW-18444885942"
           strategy="afterInteractive"
         />
-        <Script id="google-analytics" strategy="afterInteractive">
+        <Script id="google-tags" strategy="afterInteractive">
           {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
+            gtag('config', 'AW-18444885942');
             gtag('config', 'G-ZCYPR2V24D');
           `}
         </Script>
